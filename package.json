@@ -1,0 +1,26 @@
+{
+  "name": "docusign-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "docusign-esign": "^4.2.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "memorystore": "^1.6.0",
+    "moment": "^2.24.0",
+    "passport": "^0.4.0",
+    "passport-docusign": "^1.1.0",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
