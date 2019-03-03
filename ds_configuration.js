@@ -2,8 +2,8 @@
 // Either fill in the data below or set the environment variables
 //
 exports.config = {
-    dsClientId: process.env.DS_CLIENT_ID || '5a1ce3a9-298a-46a9-8752-b7a0e6d1e200' // The app's DocuSign integration key
-  , dsClientSecret: process.env.DS_CLIENT_SECRET || 'ea26fde3-4b6e-4798-819e-5f7812abcae0'
+    dsClientId: process.env.DS_CLIENT_ID || "<Your App's Docusign Integration Key>"
+  , dsClientSecret: process.env.DS_CLIENT_SECRET || "<Your App's Docusign Client Secret>"
   , appUrl: process.env.DS_APP_URL || 'http://localhost:3000' // The url of the application.
   , production: false
   , debug: true // Send debugging statements to console
